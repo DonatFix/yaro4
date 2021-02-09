@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $('.search-button').click(function(){
+        $('.search-modal').addClass('active');
+        $('.search-input').focus();
+    });
+    $('.search-modal-close-button').click(function(){
+        $('.search-modal').removeClass('active');
+    });
+});
